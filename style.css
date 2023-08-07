@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#second_row {
+    display: flex;
+}
+
+#ahsan {
+    background-color: #FFF;
+    ;
+}
+
+#ahsan ul {
+    display: flex;
+    list-style: none;
+    margin: 5px auto;
+    width: 900px;
+
+}
+
+#ahsan li {
+    width: 127px;
+    height: 87px;
+    /* border: 1px solid grey; */
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+
+#main_ul .home:hover {
+    width: 127px;
+    height: 87px;
+    background-color: #dbdbdb;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#main_ul .home:after {
+    content: "";
+    height: 6px;
+    width: 128px;
+    position: absolute;
+    background-color: #dbdbdb;
+    top: 171px;
+    left: 224px;
+    border-bottom-left-radius: 8px;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+#main_ul .pokedex:hover {
+    width: 127px;
+    height: 87px;
+    background-color: #E3350D;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding-top: 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#main_ul .pokedex:after {
+    content: "";
+    height: 6px;
+    width: 127px;
+    position: absolute;
+    background-color: #E3350D;
+    top: 171px;
+    left: 352px;
+    /* border-bottom-left-radius: 8px; */
+    z-index: 2;
+}
+
+
+
+
+
+#main_ul .video_game:hover {
+    width: 127px;
+    height: 87px;
+    background-color: #EE6B2F;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#main_ul .video_game:after {
+    content: "";
+    height: 6px;
+    width: 127px;
+    position: absolute;
+    background-color: #EE6B2F;
+    top: 171px;
+    left: 479px;
+    /* border-bottom-left-radius: 8px; */
+    z-index: 2;
+}
+
+
+
+
+
+#main_ul .cards:hover {
+    width: 127px;
+    height: 87px;
+    background-color: #e6bc2f;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#main_ul .cards:after {
+    content: "";
+    height: 6px;
+    width: 127px;
+    position: absolute;
+    background-color: #e6bc2f;
+    top: 171px;
+    left: 606px;
+    /* border-bottom-left-radius: 8px; */
+    z-index: 2;
+}
+
+
+
+#main_ul .tv:hover {
+    width: 127px;
+    height: 87px;
+    background-color: #6dc47a;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#main_ul .tv:after {
+    content: "";
+    height: 6px;
+    width: 128px;
+    position: absolute;
+    background-color: #6dc47a;
+    top: 171px;
+    left: 733px;
+    /* border-bottom-left-radius: 8px; */
+    z-index: 2;
+}
+
+
+
+#main_ul .events:hover {
+    width: 127px;
+    height: 87px;
+    background-color: #30A7D7;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#main_ul .events:after {
+    content: "";
+    height: 6px;
+    width: 126px;
+    position: absolute;
+    background-color: #30A7D7;
+    top: 171px;
+    left: 861px;
+    /* border-bottom-left-radius: 8px; */
+    z-index: 2;
+}
+
+
+
+#main_ul .news:hover {
+    width: 127px;
+    height: 87px;
+    background-color: #1B53BA;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#main_ul .news:after {
+    content: "";
+    height: 6px;
+    width: 127px;
+    position: absolute;
+    background-color: #1B53BA;
+    top: 171px;
+    left: 987px;
+    border-bottom-right-radius: 8px;
+    z-index: 2;
+}
+
+.first_letter {
+    color: #929292;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+
+.first_letter::first-letter {
+    color: #30A7D7;
+    font-size: 70px;
+    float: left;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-right: 10px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.first_head {
+    color: black;
+    margin-top: 56px;
+    font-size: 27px;
+    border-bottom: 3px solid #30A7D7;
+    margin-bottom: 13px;
+}
+.second_head{
+    color: black;
+    margin-top: 56px;
+    font-size: 25px;
+    border-bottom: 3px solid #30A7D7;
+    margin-bottom: 13px;
+}
+.third_head{
+    color: black;
+    margin-top: 56px;
+    font-size: 27px;
+    border-bottom: 3px solid #30A7D7;
+    margin-bottom: 13px;
+}
+.fourth_head{
+    color: black;
+    margin-top: 56px;
+    font-size: 27px;
+    border-bottom: 3px solid #30A7D7;
+    margin-bottom: 13px;
+}
+.fifth_head{
+    color: black;
+    margin-top: 56px;
+    font-size: 27px;
+    border-bottom: 3px solid #30A7D7;
+    margin-bottom: 13px;
+}
+.sixth_head{
+    color: black;
+    margin-top: 56px;
+    font-size: 27px;
+    border-bottom: 3px solid #30A7D7;
+    margin-bottom: 13px;
+}
+.seventh_head{
+    color: black;
+    margin-top: 56px;
+    font-size: 27px;
+    border-bottom: 3px solid #30A7D7;
+    margin-bottom: 13px;
+}
+.eight_head{
+    color: black;
+    margin-top: 56px;
+    font-size: 27px;
+    border-bottom: 3px solid #30A7D7;
+    margin-bottom: 13px;
+}
